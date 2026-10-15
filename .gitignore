@@ -1,0 +1,16 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local secrets and assistant memory
+.env
+.env.*
+!.env.example
+data/
+notes.json
+memory.json
+
+# macOS
+.DS_Store
